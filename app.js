@@ -2,7 +2,6 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const date = require(__dirname + "/date.js");
 const mongoose = require('mongoose');
 
 mongoose.connect("mongodb+srv://ansuman:digestive@cluster0.me5ux.mongodb.net/listDB", {useNewUrlParser: true});
